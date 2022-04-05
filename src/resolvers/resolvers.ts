@@ -1,13 +1,17 @@
 const users = [
   {
     id: 1,
-    name: 'Jimmy1',
-    age: 18,
+    user_info: {
+      name: 'Jimmy1',
+      age: 18,
+    }
   },
   {
     id: 2,
-    name: 'Jimmy2',
-    age: 20,
+    user_info: {
+      name: 'Jimmy2',
+      age: 20,
+    }
   }
 ]
 

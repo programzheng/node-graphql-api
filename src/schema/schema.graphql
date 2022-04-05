@@ -11,6 +11,10 @@ type Mutation {
 
 type User {
   id: Int
+  user_info: UserInfo
+}
+
+type UserInfo {
   name: String
   age: Int
 }
