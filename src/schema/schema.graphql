@@ -21,6 +21,10 @@ type UserInfo {
 
 input UserInput {
   id: Int
+  user_info: UserInfoInput
+}
+
+input UserInfoInput {
   name: String
   age: Int
 }
