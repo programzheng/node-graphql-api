@@ -7,10 +7,12 @@ type Mutation {
   createUser(userInput: UserInput): User
   updateUser(userInput: UserInput): User
   deleteUser(userConfig: UserConfig): User
+  login(email: String!, password: String!): User
 }
 
 type User {
   id: Int
+  email: String
   user_info: UserInfo
 }
 
